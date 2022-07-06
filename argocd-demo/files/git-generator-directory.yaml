@@ -9,7 +9,7 @@ spec:
         directories: 
           - 
             path: examples/git-generator-directory/guestbook-example-apps/*
-        repoURL: "https://github.com/dewandemo/applicationset.git"
+        repoURL: "https://github.com/Emc285/argocd-demo.git"
         revision: HEAD
   template: 
     metadata: 
@@ -21,7 +21,7 @@ spec:
       project: default
       source: 
         path: "{{path}}"
-        repoURL: "https://github.com/dewandemo/applicationset.git"
+        repoURL: "https://github.com/Emc285/argocd-demo.git"
         targetRevision: HEAD
       syncPolicy: 
         automated: 

@@ -7,7 +7,7 @@ spec:
   - matrix:
       generators:
       - git:
-          repoURL: https://github.com/dewandemo/applicationset.git
+          repoURL: https://github.com/Emc285/argocd-demo.git
           revision: HEAD
           directories:
           - path: examples/git-generator-directory/guestbook-example-apps/*
@@ -27,7 +27,7 @@ spec:
     spec:
       project: '{{values.project}}'
       source:
-        repoURL: https://github.com/dewandemo/applicationset.git
+        repoURL: https://github.com/Emc285/argocd-demo.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
